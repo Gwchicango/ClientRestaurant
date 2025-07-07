@@ -13,7 +13,7 @@ const Inicio = () => {
 
   return (
     <>
-      <Header titulo={"Menú Princiapl de Platillos"} Buscar={true} />
+      <Header titulo={"Menú Principal de Platillos"} Buscar={true} />
       <div className="grid-container">
         <Orden />
       </div>
