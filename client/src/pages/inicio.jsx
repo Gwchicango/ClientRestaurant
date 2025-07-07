@@ -1,6 +1,5 @@
 import { Header } from "../components/header.jsx";
 import  Orden  from "../components/Orden.jsx";
-import  Cocina  from "../components/Cocina.jsx";
 import React, { useEffect } from 'react';
 
 import "../styles/Inicio.css";
@@ -13,7 +12,7 @@ const Inicio = () => {
 
   return (
     <>
-      <Header titulo={"Menú Principal de Platillos "} Buscar={true} />
+      <Header titulo={"Menú Principal de Platillos"} Buscar={true} />
       <div className="grid-container">
         <Orden />
       </div>
